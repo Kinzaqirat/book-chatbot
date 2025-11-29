@@ -12,6 +12,7 @@ import requests
 
 # Load environment variables
 load_dotenv()
+PORT = int(os.getenv("PORT", 8000))
 
 # --- Configuration ---
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
