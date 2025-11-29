@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 
 # Configuration
-GITHUB_REPO = "Qiratsumra/ai-book"
+GITHUB_REPO = "https://github.com/Kinzaqirat/book-chatbot"
 GITHUB_BRANCH = "main"
 RAG_API_URL = "http://localhost:8000"
 
