@@ -8,8 +8,6 @@ from qdrant_client import QdrantClient, models
 from typing import List, Optional
 import json
 import uuid
-import requests
-
 # Load environment variables
 load_dotenv()
 
